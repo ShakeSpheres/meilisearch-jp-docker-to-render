@@ -1,6 +1,6 @@
 services:
 - type: web
-  name: meili
+  name: meilisearch
   env: docker
   repo: https://github.com/ShakeSpheres/meilisearch-docker-render.git
   plan: standard
@@ -16,4 +16,4 @@ services:
   - key: MEILI_DB_PATH
     value: /meili-data
   - key: MEILI_ENV
-    value: development
+    value: production
