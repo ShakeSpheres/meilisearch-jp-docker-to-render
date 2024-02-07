@@ -1,6 +1,7 @@
 # meilisearch-docker-render
 
-Meilisearch を render.com にデプロイする
+
+日本語用のMeilisearch を render.com にデプロイする
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
