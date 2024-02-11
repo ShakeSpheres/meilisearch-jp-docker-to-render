@@ -3,7 +3,7 @@ services:
   name: meilisearch
   env: docker
   repo: https://github.com/ShakeSpheres/meilisearch-docker-render.git
-  plan: free
+  plan: starter
   disk:
     name: meili-data
     mountPath: /meili-data
