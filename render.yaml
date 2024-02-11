@@ -1,12 +1,13 @@
+services:
 - type: web
   name: meilisearch
   env: docker
   repo: https://github.com/ShakeSpheres/meilisearch-docker-render.git
-  plan: starter
+  plan: free
   disk:
     name: meili-data
     mountPath: /meili-data
-    sizeGB: 1
+    sizeGB: 5  
   envVars:
   - key: MEILI_HTTP_ADDR
     value: 0.0.0.0:80
