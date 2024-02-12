@@ -1,3 +1,6 @@
+https://github.com/Amrit0991/meilisearch-docker-render
+上記のリポジトリを参考にjp用のプロトタイプのモデルにへんこうしました。
+
 # meilisearch-docker-render
 
 
